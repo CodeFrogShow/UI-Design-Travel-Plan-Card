@@ -1,0 +1,290 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body
+{
+  font-family: Roboto, sans-serif;
+  background: #944d00;
+  overflow: hidden;
+}
+
+.container
+{
+  width: 320px;
+  margin: 45px auto;
+}
+
+.card
+{
+  width: 320px;
+  box-shadow: 0 50px 55px -30px #804301;
+}
+
+.header
+{
+  position: relative;
+}
+
+.location
+{
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 25px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.location .name
+{
+  display: block;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.location .country
+{
+  position: relative;
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  top: -1px;
+}
+
+.header img
+{
+  background: #fff;
+  border-radius: 0 0 15% 0;
+}
+
+h5.travel-date
+{
+  position: absolute;
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 18px;
+  margin-left: 25px;
+  color: rgba(0,0,0,0.5);
+  text-transform: uppercase;
+}
+
+.header .waves
+{
+  position: absolute;
+  width: 100%;
+  height: 38px;
+  margin-top: -43px;
+  overflow: hidden;
+  border-radius: 0 0 55% 0;
+}
+
+.waves span
+{
+  position: absolute;
+  display: inline-block;
+  border-radius: 100%;
+  background: rgba(255,255,255,0.3);
+}
+
+.wave-1
+{
+  width: 260px;
+  height: 90px;
+  margin-left: -90px;
+}
+
+.wave-2
+{
+  width: 400px;
+  height: 70px;
+  margin-left: 70px;
+}
+
+.wave-3
+{
+  width: 400px;
+  height: 80px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.wave-4
+{
+  width: 170px;
+  height: 80px;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+.header:after
+{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  border-radius: 0 0 90% 0;
+  margin-top: -40px;
+  box-shadow: 0 5px 15px rgba(138,65,0,0.18);
+}
+
+.header:before
+{
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 236px;
+  background: rgba(255,255,255,0.3);
+  z-index: -1;
+}
+
+.footer
+{
+  position: relative;
+  height: 310px;
+  background: rgba(255,255,255,0.3);
+  z-index: -1;
+}
+
+.plan-details
+{
+  position: absolute;
+  width: 290px;
+  height: 330px;
+  background: #fff;
+  left: 50%;
+  margin-left: -145px;
+  margin-top: -65px;
+  box-shadow: 0 18px 0 -10px rgba(255,255,255,0.5),
+              0 36px 0 -20px rgba(255,255,255,0.3);
+}
+
+.plans
+{
+  position: relative;
+  margin-top: 80px;
+}
+
+.row
+{
+  width: 100%;
+  padding: 15px 0;
+}
+
+.row span
+{
+  display: inline-block;
+  text-align: center;
+}
+
+.plan-icon
+{
+  position: relative;
+  width: 35%;
+}
+
+.fa
+{
+  position: relative;
+  font-size: 19px;
+  top: 5px;
+  margin-left: -45px;
+  color: #b56218;
+}
+
+span.circle
+{
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  border-radius: 100%;
+  right: 40px;
+  margin-top: 11px;
+}
+
+.row:nth-child(odd) span.circle
+{
+  background: #eca86b;
+}
+
+.row:nth-child(even) span.circle
+{
+  background: #d96958;
+}
+
+.plan-title
+{
+  position: relative;
+  width: 45%;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  text-align: left !important;
+  top: 2px;
+}
+
+.plan-title .caption
+{
+  position: absolute;
+  left: 0;
+  margin-top: 16px;
+  font-size: 10px;
+  font-weight: 900;
+  color: rgba(0,0,0,0.4);
+}
+
+.plan-time
+{
+  position: relative;
+  width: 20%;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(0,0,0,0.8);
+  top: -2px;
+}
+
+.plan-time span
+{
+  position: absolute;
+  width: 100%;
+  font-weight: 500;
+  font-size: 8px;
+  left: 0;
+  margin-top: 21px;
+}
+
+.timeline-sep
+{
+  position: absolute;
+  width: 1px;
+  height: 75%;
+  display: inline-block;
+  box-shadow: 1px 0 2px rgba(255,177,85,0.3);
+  left: 22.5%;
+  z-index: 1;
+}
+
+.btn-add-plan
+{
+  position: absolute;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background: #8a4100;
+  color: #fff;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 100%;
+  font-size: 20px;
+  font-weight: 100;
+  bottom: 22px;
+  left: 50%;
+  margin-left: -22.5px;
+  box-shadow: 0 9px 15px -1px rgba(137,74,0,0.4);
+}
