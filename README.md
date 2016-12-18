@@ -6,7 +6,7 @@ Channel Name: CodeFrog
 
 Video Title: Travel Plan Card UI Design - HTML CSS Tutorial
 
-Video Link: https://www.youtube.com/edit?video_id=MTVSMnl2-qI
+Video Link: https://www.youtube.com/watch?v=MTVSMnl2-qI
 
 Fonts used for icons: http://fontawesome.io/
 
